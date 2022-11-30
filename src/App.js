@@ -5,10 +5,11 @@ function App() {
   return (
     <div className="calculator">
      <div className='output'>
-     <div className='previous-output'></div>
-     <div className='current-output'></div> 
+     <div className='previous-output'>123456</div>
+     <div className='current-output'>45678</div> 
      </div>
-     <button className='button' >AC</button>
+     <button className='span-two' >AC</button>
+     <button>DEL</button>
      <button className='button' >+</button>
      <button className='button' >-</button>
      <button className='button' >%</button>
@@ -22,6 +23,7 @@ function App() {
      <button className='button' >8</button>
      <button className='button' >9</button>
      <button className='button' >0</button>
+     <button className='span-two' >=</button>
     </div>
   );
 }
